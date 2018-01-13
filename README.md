@@ -8,7 +8,7 @@
 
 ### 数据构建
 
-* [networkx-graph](/samples/networkx-graph) - 使用 networkx 库构建关系图数据
+* [networkx-graph](/samples/networkx-graph.py) - 使用 networkx 库构建关系图数据
 
 ### 本地渲染
 
@@ -20,11 +20,11 @@
 
 ### Django框架
 
-* [demo-django](/demo-demo) - 在 Django 中使用 pyecharts 绘图
+* [demo-django](/demo-django) - 在 Django 中使用 pyecharts 绘图
 
 ### Flask 框架
 
-* [django-flask](/django-flask) 在 Flask 中使用 pyecharts绘图
+* [demo-flask](/demo-flask) 在 Flask 中使用 pyecharts绘图
 
 ## 外部资源
 
