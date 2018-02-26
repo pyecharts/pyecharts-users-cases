@@ -1,10 +1,10 @@
 import random
 from pyecharts import Scatter3D
-from pyecharts.constants import DEFAULT_HOST
 from flask import Flask, render_template
 
 
 app = Flask(__name__)
+REMOTE_HOST = "https://pyecharts.github.io/assets/js"
 
 
 @app.route("/")
@@ -12,7 +12,7 @@ def hello():
     s3d = scatter3d()
     return render_template('pyecharts.html',
                            myechart=s3d.render_embed(),
-                           host=DEFAULT_HOST,
+                           host=REMOTE_HOST,
                            script_list=s3d.get_js_dependencies())
 
 
