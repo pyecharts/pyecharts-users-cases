@@ -5,7 +5,7 @@ from django.http import HttpResponse
 from django.template import loader
 from pyecharts import Line3D
 
-from pyecharts.constants import DEFAULT_HOST
+REMOTE_HOST = "https://pyecharts.github.io/assets/js"
 
 
 def index(request):
@@ -13,7 +13,7 @@ def index(request):
     l3d = line3d()
     context = dict(
         myechart=l3d.render_embed(),
-        host=DEFAULT_HOST,
+        host=REMOTE_HOST,
         script_list=l3d.get_js_dependencies()
     )
     return HttpResponse(template.render(context, request))
