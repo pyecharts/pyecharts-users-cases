@@ -1,0 +1,2 @@
+tornado>=5.0.2
+pyecharts==0.5.5

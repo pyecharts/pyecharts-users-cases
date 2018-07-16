@@ -26,6 +26,10 @@
 
 * [demo-flask](/demo-flask) 在 Flask 中使用 pyecharts绘图
 
+### Tornado 框架
+
+* [demo-tornado](/demo-tornado) - 在 Tornado 中使用 pyecharts绘图
+
 ## 外部资源
 
 *（这些资源不在本仓库托管之内，仅以链接列出）*
