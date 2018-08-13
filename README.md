@@ -36,7 +36,7 @@
 
 ### Jupyter Notebook 在线示例
 
-（暂无）
+* [图例集锦](http://nbviewer.jupyter.org/github/pyecharts/pyecharts-users-cases/blob/master/notebook-users-cases/notebook-user-cases.ipynb)
 
 ### Flask 高级使用示例
 
